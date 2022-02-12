@@ -9,4 +9,3 @@ D:\projects\OdeToFood2\OdeToFood\OdeToFood.Core\obj\Debug\net6.0\OdeToFood.Core.
 D:\projects\OdeToFood2\OdeToFood\OdeToFood.Core\obj\Debug\net6.0\OdeToFood.Core.dll
 D:\projects\OdeToFood2\OdeToFood\OdeToFood.Core\obj\Debug\net6.0\ref\OdeToFood.Core.dll
 D:\projects\OdeToFood2\OdeToFood\OdeToFood.Core\obj\Debug\net6.0\OdeToFood.Core.pdb
-D:\projects\OdeToFood2\OdeToFood\OdeToFood.Core\obj\Debug\net6.0\OdeToFood.Core.csproj.AssemblyReference.cache
