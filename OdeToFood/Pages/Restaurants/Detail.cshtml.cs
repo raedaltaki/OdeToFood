@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -26,7 +26,7 @@ namespace OdeToFood.Pages.Restaurants
         public IActionResult OnGet(int restaurantId)
         {
             Restaurant = restaurantData.GetById(restaurantId);
-            if(Restaurant == null)
+            if (Restaurant == null)
             {
                 return RedirectToPage("./NotFound");
             }

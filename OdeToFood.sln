@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.810.16
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood", "OdeToFood\OdeToFood.csproj", "{707DF93A-E6B9-43BA-97E6-A69B9834FB3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood", "OdeToFood\OdeToFood.csproj", "{2D6EA13A-AF25-47E2-941F-CA777CD4D3FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Core", "OdeToFood.Core\OdeToFood.Core.csproj", "{35D0D4D0-411C-45E3-9A7A-051F52C34556}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Core", "OdeToFood.Core\OdeToFood.Core.csproj", "{79BE1A0A-2A18-41F4-B875-6B85C9629910}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Data", "OdeToFood.Data\OdeToFood.Data.csproj", "{745A9DBC-C490-4054-947B-99EC0372E881}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Data", "OdeToFood.Data\OdeToFood.Data.csproj", "{94A5234D-6A0F-4D97-A267-656197439A30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,23 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{707DF93A-E6B9-43BA-97E6-A69B9834FB3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{707DF93A-E6B9-43BA-97E6-A69B9834FB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{707DF93A-E6B9-43BA-97E6-A69B9834FB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{707DF93A-E6B9-43BA-97E6-A69B9834FB3E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{35D0D4D0-411C-45E3-9A7A-051F52C34556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{35D0D4D0-411C-45E3-9A7A-051F52C34556}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{35D0D4D0-411C-45E3-9A7A-051F52C34556}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{35D0D4D0-411C-45E3-9A7A-051F52C34556}.Release|Any CPU.Build.0 = Release|Any CPU
-		{745A9DBC-C490-4054-947B-99EC0372E881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{745A9DBC-C490-4054-947B-99EC0372E881}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{745A9DBC-C490-4054-947B-99EC0372E881}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{745A9DBC-C490-4054-947B-99EC0372E881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D6EA13A-AF25-47E2-941F-CA777CD4D3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D6EA13A-AF25-47E2-941F-CA777CD4D3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D6EA13A-AF25-47E2-941F-CA777CD4D3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D6EA13A-AF25-47E2-941F-CA777CD4D3FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79BE1A0A-2A18-41F4-B875-6B85C9629910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79BE1A0A-2A18-41F4-B875-6B85C9629910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79BE1A0A-2A18-41F4-B875-6B85C9629910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79BE1A0A-2A18-41F4-B875-6B85C9629910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A5234D-6A0F-4D97-A267-656197439A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A5234D-6A0F-4D97-A267-656197439A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A5234D-6A0F-4D97-A267-656197439A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A5234D-6A0F-4D97-A267-656197439A30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {177B88EF-CD87-475B-ACB7-EDD337B94D1F}
+		SolutionGuid = {706C4833-BAE5-4E82-A499-902B1E572E25}
 	EndGlobalSection
 EndGlobal

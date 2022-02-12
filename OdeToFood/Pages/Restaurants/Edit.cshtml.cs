@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -29,7 +29,7 @@ namespace OdeToFood.Pages.Restaurants
         public IActionResult OnGet(int? restaurantId)
         {
             Cuisines = htmlHelper.GetEnumSelectList<CuisineType>();
-            if(restaurantId.HasValue)
+            if (restaurantId.HasValue)
             {
                 Restaurant = restaurantData.GetById(restaurantId.Value);
             }
@@ -52,7 +52,7 @@ namespace OdeToFood.Pages.Restaurants
                 return Page();
             }
 
-            if(Restaurant.Id >0)
+            if (Restaurant.Id > 0)
             {
                 restaurantData.Update(Restaurant);
             }
