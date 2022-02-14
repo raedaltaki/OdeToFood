@@ -42,9 +42,10 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
+            @RenderSection("footer",required: false)
             <vc:restaurant-count></vc:restaurant-count>
-            @RenderSection("footer",required: false);
             &copy; 2022 - OdeToFood - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            <img src="/OdeToFood.png" />
         </div>
     </footer>
 

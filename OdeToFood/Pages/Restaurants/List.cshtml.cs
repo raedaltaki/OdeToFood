@@ -15,6 +15,7 @@ namespace OdeToFood.Pages.Restaurants
 
         private readonly IConfiguration config;
         private readonly IRestaurantData restaurantData;
+        private readonly ILogger<ListModel> logger;
 
         public string Message { get; set; }
         public IEnumerable<Restaurant> Restaurants { get; set; }
@@ -22,14 +23,18 @@ namespace OdeToFood.Pages.Restaurants
         [BindProperty(SupportsGet = true)]
         public string SearchTerm { get; set; }
 
-        public ListModel(IConfiguration config, IRestaurantData restaurantData)
+        public ListModel(IConfiguration config, 
+                         IRestaurantData restaurantData,
+                         ILogger<ListModel> logger)
         {
             this.config = config;
             this.restaurantData = restaurantData;
+            this.logger = logger;
         }
 
         public void OnGet()
         {
+            logger.LogError("************** Excuting ListModel **************");
             //Message = "Hello, World";
             //HttpContext.Request.QueryString
             //SearchTerm = searchTerm;
